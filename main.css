@@ -118,7 +118,7 @@ a:any-link {
 
 .nav__cta-btn {
   background-color: var(--OFF-WHITE);
-  border-radius: 8px;
+  border-radius: 6px;
   border: 2px solid var(--DARK-BLUE);
   padding: 12px 16.5px 12px 15.5px;
   font: bold 14px/24px var(--FF);
@@ -324,4 +324,110 @@ a:any-link {
 
 .footer-links__socials img {
   max-width: 20px;
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+  /* || HEADER */
+  .header {
+    margin: 40px 40px 80px 39px;
+  }
+
+  .nav__logo img {
+    margin-right: 24.313rem;
+  }
+
+  .nav__cta-btn {
+    padding: 12px 24.5px 12px 23.5px;
+    font: bold 16px/32px var(--FF);
+    letter-spacing: -0.16px;
+    width: 219px;
+    height: 56px;
+  }
+
+  /* || MAIN */
+  .main {
+    margin: 0px 40px 500px 39px;
+  }
+
+  .hero__hero-content {
+    gap: 88px;
+  }
+
+  .hero-content__text-image {
+    flex-flow: row;
+    gap: 0%;
+    position: relative;
+    width: 689px;
+    height: 482px;
+  }
+
+  .hero-image.mobile img {
+    display: none;
+  }
+
+  .hero-image.responsive-image {
+    display: block;
+    max-width: 281px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .text-image__hero-text {
+    gap: 40px;
+    z-index: 2;
+  }
+
+  .hero-text__title {
+    font: normal 56px/64px var(--FF);
+    position: relative;
+    width: 550px;
+  }
+
+  .hero-text__title img {
+    max-width: 231.19px;
+    left: 43.5%;
+  }
+
+  .hero-text__text {
+    letter-spacing: 0.09;
+    width: 350px;
+  }
+
+  .hero-content__hero-stats {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 130px;
+  }
+
+  /* || FOOTER */
+  .footer {
+    height: 640px;
+    padding: 536px 40px 72px 39px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .footer__card-content {
+    width: 689px;
+    height: 684px;
+    bottom: 27.5%;
+    padding: 261px 58px 64px 58px;
+  }
+
+  .text-group__subtext {
+    width: 573px;
+  }
+
+  .footer__footer-links {
+    flex-flow: row;
+    gap: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 689px;
+    height: auto;
+  }
 }
