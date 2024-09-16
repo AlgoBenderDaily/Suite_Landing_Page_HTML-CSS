@@ -101,6 +101,7 @@ a:any-link {
   margin: 24px 16px 56px 16px;
   display: flex;
   align-items: center;
+  flex-flow: column;
 }
 
 .header__nav {
@@ -132,6 +133,7 @@ a:any-link {
   margin: 0px 16px 900px 16px;
   display: flex;
   align-items: center;
+  flex-flow: column;
 }
 
 .hero__hero-content {
