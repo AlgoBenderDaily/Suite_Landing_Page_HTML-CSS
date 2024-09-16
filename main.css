@@ -620,4 +620,31 @@ a:any-link {
   .footer-links__socials img {
     max-width: 20px;
   }
+
+  /* || HOver States */
+  .nav__cta-btn:hover,
+  .nav__cta-btn:focus-visible {
+    background-color: var(--DARK-BLUE);
+    color: var(--OFF-WHITE);
+  }
+
+  .hero-text__cta-btn:hover,
+  .hero-text__cta-btn:focus-visible {
+    background-image: linear-gradient(
+      -77deg,
+      #a060ff 0%,
+      #cb30e3 49%,
+      #ffa84e 100%
+    );
+  }
+
+  .socials__block:hover .socials__org,
+  .socials__block:focus-visible .socials__org {
+    display: none;
+  }
+
+  .socials__block:hover .socials__hvr,
+  .socials__block:focus-visible .socials__hvr {
+    display: block;
+  }
 }
